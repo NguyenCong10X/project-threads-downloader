@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 const {threads} = require("betabotz-tools")
 const axios = require('axios');
-const cheerio = require('cheerio');
 const https = require('https');
 const api = "https://api.threadsphotodownloader.com/v2/media";
 // /* GET home page. */
